@@ -1,15 +1,36 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Hotel 1: multiple schema violations but XML is well-formed -->
+  <Hotel>
     <Name>The Westin Phoenix Downtown</Name>
     <Name>Duplicate Name</Name>
+    <!-- no <Phone> at all (violates min 1) -->
     <Address>
-      <Number>333</Number>
+      <!-- out-of-order children: Street placed before Number -->
       <Street>W Adams St</Street>
+      <Number>333</Number>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85003</Zip>
       <NearestAirport>PHX</NearestAirport>
-    <!-- Missing </Address> on purpose -->
+    </Address>
   </Hotel>
-</Hotel>
+
+  <!-- Hotel 2: missing required Address child -->
+  <Hotel Id="HERR2" Rating="4.2">
+    <Name>AC Hotel by Marriott</Name>
+    <Phone>602-111-2222</Phone>
+    <Address>
+      <Number>132</Number>
+      <Street>S Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <!-- Missing <NearestAirport> -->
+    </Address>
+  </Hotel>
+
+</Hotels>
+
