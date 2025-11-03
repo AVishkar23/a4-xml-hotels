@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Id="H001" Rating="4.5">
+    <Name>The Westin Phoenix Downtown</Name>
+    <Phone>602-123-4567</Phone>
+    <Phone>602-765-4321</Phone>
+    <Address>
+      <Number>333</Number>
+      <Street>W Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H002">
+    <Name>AC Hotel by Marriott</Name>
+    <Phone>602-111-2222</Phone>
+    <Address>
+      <Number>132</Number>
+      <Street>S Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotels>

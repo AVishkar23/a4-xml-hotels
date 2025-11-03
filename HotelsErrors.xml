@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Rating="4.5">
+    <Name>The Westin Phoenix Downtown</Name>
+    <Name>Duplicate Name</Name>
+    <Address>
+      <Number>333</Number>
+      <Street>W Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    <!-- Missing </Address> on purpose -->
+  </Hotel>
+</Hotel>
