@@ -26,4 +26,110 @@
       <NearestAirport>PHX</NearestAirport>
     </Address>
   </Hotel>
+    <Hotel Id="H003" Rating="4.2">
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-257-1234</Phone>
+    <Phone>602-257-4321</Phone>
+    <Address>
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H004">
+    <Name>Renaissance Phoenix Downtown Hotel</Name>
+    <Phone>602-333-0000</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>N 1st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H005" Rating="3.9">
+    <Name>Hilton Garden Inn Phoenix Downtown</Name>
+    <Phone>602-343-0001</Phone>
+    <Address>
+      <Number>15</Number>
+      <Street>E Monroe St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H006">
+    <Name>Sheraton Phoenix Downtown</Name>
+    <Phone>602-262-2500</Phone>
+    <Address>
+      <Number>340</Number>
+      <Street>N 3rd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H007" Rating="4.8">
+    <Name>Kimpton Hotel Palomar Phoenix</Name>
+    <Phone>602-253-6633</Phone>
+    <Phone>602-253-7788</Phone>
+    <Address>
+      <Number>2</Number>
+      <Street>E Jefferson St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H008">
+    <Name>Found Re Phoenix</Name>
+    <Phone>602-875-8000</Phone>
+    <Address>
+      <Number>1100</Number>
+      <Street>N Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H009" Rating="4.0">
+    <Name>Hampton Inn Phoenix Midtown</Name>
+    <Phone>602-200-0990</Phone>
+    <Address>
+      <Number>160</Number>
+      <Street>W Catalina Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85013</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Id="H010">
+    <Name>Holiday Inn Express Phoenix Downtown</Name>
+    <Phone>602-452-2020</Phone>
+    <Address>
+      <Number>620</Number>
+      <Street>N 6th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+  </Hotel>
 </Hotels>
+
