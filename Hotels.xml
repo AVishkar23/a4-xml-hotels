@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://avishkar23.github.io/a4-xml-hotels/Hotels.xsd">
   <Hotel Id="H001" Rating="4.5">
     <Name>The Westin Phoenix Downtown</Name>
     <Phone>602-123-4567</Phone>
@@ -132,4 +133,5 @@
     </Address>
   </Hotel>
 </Hotels>
+
 
